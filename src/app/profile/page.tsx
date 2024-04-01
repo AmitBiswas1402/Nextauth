@@ -3,7 +3,7 @@
 import React,{useState} from 'react'
 import axios from 'axios'
 import Link from 'next/link'
-import toast, { Toast } from 'react-hot-toast'
+import {toast} from 'react-hot-toast'
 import { useRouter } from 'next/navigation'
 
 export default function ProfilePage() {
@@ -40,7 +40,7 @@ export default function ProfilePage() {
       <button
         onClick={getUserDetails}
         className="bg-green-700 mt-4 hover:bg-green-800 text-white font-bold py-2 px-4 rounded"
-        >GetUser Details</button>
+        >Get User Details</button>
     </div>
   )
 }
